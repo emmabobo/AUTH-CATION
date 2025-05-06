@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SignOutButton from "../api/auth/SignOutButton";
 
 export default function Home1() {
   return (
@@ -8,7 +9,7 @@ export default function Home1() {
         
         <p>You are login to Google</p>
         
-        <button>Log Out</button>
+        <SignOutButton />
       </div>
 
     </div>

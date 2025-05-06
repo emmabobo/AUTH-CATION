@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import GoogleSignIn from "./api/auth/GoogleSignIn";
+
 
 export default function Home() {
   return (
@@ -11,7 +13,7 @@ export default function Home() {
         <div className="flex flex-col gap-2">
           <p>Login with Magic link </p>
 
-          <Button>Logging with Google</Button>
+          <GoogleSignIn/>
           <Button>Logging with Github</Button>
 
         </div>

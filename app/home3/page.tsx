@@ -12,8 +12,7 @@ export default function Home3() {
           
         </div>
         
-        <button>Logging with Google</button>
-        <button>Logging with Github</button>
+        
       </div>
 
     </div>
