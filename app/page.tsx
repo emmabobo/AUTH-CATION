@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import GoogleSignIn from "./api/auth/GoogleSignIn";
+import GithubSignIn from "./api/auth/GithubSignin";
 
 
 export default function Home() {
@@ -14,7 +15,7 @@ export default function Home() {
           <p>Login with Magic link </p>
 
           <GoogleSignIn/>
-          <Button>Logging with Github</Button>
+          <GithubSignIn/>
 
         </div>
         
