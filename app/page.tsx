@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import GoogleSignIn from "./api/auth/GoogleSignIn";
 import GithubSignIn from "./api/auth/GithubSignin";
+import ResendSignIn from "./api/auth/ResndSugnin";
 
 
 export default function Home() {
@@ -12,6 +13,10 @@ export default function Home() {
         
         <p className="text-center">This is a Auth page</p>
         <div className="flex flex-col gap-4">
+
+        <div >
+            <ResendSignIn/>
+          </div>
           
           <div className="hover:translate-y-1">
             <GoogleSignIn/>
