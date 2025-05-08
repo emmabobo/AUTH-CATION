@@ -1,3 +1,5 @@
+export const runtime = "nodejs";
+
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import GoogleSignIn from "./api/auth/GoogleSignIn";

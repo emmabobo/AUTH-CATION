@@ -1,4 +1,5 @@
-import Image from "next/image";
+export const runtime = "nodejs";
+
 import SignOutButton from "../api/auth/SignOutButton";
 
 export default function Home1() {
