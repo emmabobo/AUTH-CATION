@@ -1,3 +1,5 @@
+export const runtime = "nodejs";
+
 import { signOut } from "@/auth"
 import { Button } from "@/components/ui/button"
 
