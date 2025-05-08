@@ -10,12 +10,16 @@ export default function Home() {
       
       <div className="text-white font-bold ">
         
-        <p>This is a Auth page</p>
-        <div className="flex flex-col gap-2">
-          <p>Login with Magic link </p>
+        <p className="text-center">This is a Auth page</p>
+        <div className="flex flex-col gap-4">
+          
+          <div className="hover:translate-y-1">
+            <GoogleSignIn/>
+          </div>
+          <div className="hover:translate-y-1">
+            <GithubSignIn/>
+          </div>
 
-          <GoogleSignIn/>
-          <GithubSignIn/>
 
         </div>
         

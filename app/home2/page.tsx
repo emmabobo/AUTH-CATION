@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SignOutButton from "../api/auth/SignOutButton";
 
 export default function Home2() {
   return (
@@ -6,14 +7,10 @@ export default function Home2() {
       
       <div className="text-white font-bold ">
         
-        <p>This is a Auth page</p>
-        <div>
-          <p>Login with Magic link </p>
-          
-        </div>
+        <p>You are login with Github</p>
         
-        <button>Logging with Google</button>
-        <button>Logging with Github</button>
+        
+        <SignOutButton/>
       </div>
 
     </div>

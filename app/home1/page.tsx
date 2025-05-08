@@ -7,7 +7,7 @@ export default function Home1() {
       
       <div className="text-white font-bold ">
         
-        <p>You are login to Google</p>
+        <p className="pb-8">You are login to Google</p>
         
         <SignOutButton />
       </div>
