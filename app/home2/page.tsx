@@ -1,4 +1,4 @@
-export const runtime = "nodejs";
+
 
 
 import SignOutButton from "../api/auth/SignOutButton";

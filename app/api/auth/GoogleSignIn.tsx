@@ -1,4 +1,4 @@
-export const runtime = "nodejs";
+
 
 import { signIn } from "@/auth"
 import { Button } from "@/components/ui/button"
