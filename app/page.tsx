@@ -14,7 +14,7 @@ export default function Home() {
       <div className="text-white font-bold ">
         
         <p className="text-center">This is a Auth page</p>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col items-center justify-center gap-4">
 
           <div >
             <ResendSignIn/>
