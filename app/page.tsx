@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import GoogleSignIn from "./api/auth/GoogleSignIn";
 import GithubSignIn from "./api/auth/GithubSignin";
-import ResendSignIn from "./api/auth/ResndSugnin";
+import ResendSignIn from "./api/auth/ResendSignin";
 
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
         <p className="text-center">This is a Auth page</p>
         <div className="flex flex-col gap-4">
 
-        <div >
+          <div >
             <ResendSignIn/>
           </div>
           
